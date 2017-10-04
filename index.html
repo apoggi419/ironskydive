@@ -1,0 +1,171 @@
+<html>
+<nav class="nav-bar">
+  <ul class="nav-bar-ul">
+    <li class="nav-bar-li"><a href="#structure" class="nav-bar-item">Structure</a></li>
+    <li class="nav-bar-li"><a href="#team" class="nav-bar-item">Team</a></li>
+    <li class="nav-bar-li"><a href="#schedule" class="nav-bar-item">Schedule</a></li>
+  </ul>
+</nav>
+<header>
+  <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="">IronSkydive</h1>
+  <h2>Let the trip begin</h2>
+  <aside class= "quote"><i>"The best experience of our lives"</i><br>-Ariel Quiónes & Gonzalo Manrique, Ironhack Founders</aside>
+</header>
+<section1 id="general-information">
+  <div class="dark-background container">
+    <article class="col col-3">
+      <h3>Hello!</h3>
+      <p class= "text">Welcome to IronSkydive, the best adventure you will ever have</p>
+      <a href='#' class="link-btn">Learn More</a>
+    </article>
+    <article class="col col-3 col-middle">
+      <h3>About us</h3>
+      <p class= "text">We like to program sites, but we also like skydiving</p>
+      <a href='#' class="link-btn">Watch Video</a>
+    </article>
+    <article class="col col-3">
+      <h3>Want to join?</h3>
+      <p class= "text">Click below for scheduling and to sign up for our classes</p>
+      <a href='#' class="link-btn">Register</a>
+    </article>
+    <div class="clear-fix">
+    </div>
+  </div>
+</section1>
+<section2 id="structure">
+  <div class="container">
+    <h3>How do we structure the day?</h3>
+    <article class="service-box col">
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="" class="img">
+      <h4>Training</h4>
+      <p>We start training when we feel like it</p>
+    </article>
+    <article class="service-box col">
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="" class="img">
+      <h4>Preperation</h4>
+      <p>Everyone learns how to dance with a chute</p>
+    </article>
+    <article class="service-box col">
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="" class="img">
+      <h4>Flying</h4>
+      <p>We have a plane that everyone loads into. It sometimes works</p>
+    </article>
+    <article class="service-box col">
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="" class="img">
+      <h4>Skydive!</h4>
+      <p>We go up and push you out of a plane!</p>
+    </article>
+    <div class="clear-fix">
+    </div>
+  </div>
+</section2>
+<section3 id="team">
+  <div class="dark-background container">
+    <h3>Team</h3>
+    <p class="section-text">Our team is a group of top notch divers of the sky</p>
+    <hr>
+    <article class="col col-3">
+      <b class="member-name">Harold Rothstein</b>
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/team-1.jpg" alt="" width=100% height=250px>
+    </article>
+    <article class="col col-3 col-middle">
+      <b class="member-name">Susan Phillips</b>
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/team-2.jpg" alt="" width=100% height=250px>
+    </article>
+    <article class="col col-3">
+      <b class="member-name">Taylor Roberts</b>
+      <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/team-3.jpg" alt="" width=100% height=250px>
+    </article>
+    <div class="clear-fix">
+    </div>
+  </div>
+</section3>
+<section4 id="schedule">
+  <div class="container">
+    <h3>Schedule</h3>
+    <table class="schedule-table" cellpadding="0" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9:00 - 11:00</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>12:00-14:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>15:00 - 17:00</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Schedule a Time Slot</h3>
+  <form action="/register" class="slot-form"></form>
+  <div class="slot-form-container">
+    <label for="eml">Enter your email</label>
+    <input type="email" name="eml" value="Enter your email">
+  </div>
+  <div class="slot-form-container">
+    <label for="nbr">Number of participants</label>
+    <input type="number" name="nbr" value="Number of participants">
+  </div>
+  <div class="slot-form-container">
+    <label for="dt">Date</label>
+    <input type="date" name="dt" value="dd/mm/yyyy">
+  </div>
+  <div class="slot-form-container">
+    <label for="tm">Time</label>
+    <select class="" name="tm">
+      <option value="early">9:00-11:00</option>
+      <option value="mid">12:00-14:00</option>
+      <option value="late">15:00-17:00</option>
+    </select>
+  </div>
+  <div class="slot-form-container">
+    <button type="submit" name="submit">Reserve Your Slot!</button>
+  </div>
+</section4>
+<footer class="dark-background">
+  <div class="container">
+    <section class="col col-3">
+      <h5>Contact Information</h5>
+      <address>IronSkydive <br>33 Rue la Fayette, <br>75009 Paris, <br>France <br>+33 (0) 619 193 088</address>
+      <h5>Follow Us</h5>
+      <ul>
+        <li class="footer-link"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        <li class="footer-link"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li class="footer-link"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099" class="map-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="clear-fix"></div>
+  </div>
+</footer>
+</html>
